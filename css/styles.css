@@ -75,10 +75,6 @@
     scroll-behavior: smooth;
   }
 }
-
-h2 {
-  color: #fff;
-}
  
 .login {
   padding: 1em;
@@ -104,11 +100,21 @@ textarea {
   margin: 6px 0px;
 }
  
-.tombol {
-  background: #3498db;
-  color: #fff;
-  border: 0;
-  padding: 5px 8px;
+.third {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Lato';
+  margin: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.third:hover {
+  background: #bd5d38;
 }
 
 body {
